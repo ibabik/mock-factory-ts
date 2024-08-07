@@ -16,7 +16,7 @@ export default [
     },
     "ignores": [
       "node-modules/",
-      "dist/"
+      "dist/**/*"
     ]
   }
 ];

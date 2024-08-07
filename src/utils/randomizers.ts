@@ -19,3 +19,7 @@ export function randomNumberString(length: number): string {
     };
     return numberString;
 }
+
+export function randomFromCollection<T>(collection: T[]): T {
+    return collection[randomNumber(collection.length)];
+}
