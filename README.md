@@ -31,8 +31,9 @@ console.log(person);
 
 ### Exported Types
 **Person**: Represents a person with the following properties:
-
+```typescript
 title: string
 firstName: string
 lastName: string
 email: string
+```
