@@ -1,6 +1,6 @@
 # mock-factory-ts
-mock-factory-ts is a TypeScript library designed to generate unique random values for use in automated tests. It provides functions for creating random people, generating random numbers and strings, and selecting random items from collections. This library is particularly useful for testing scenarios where you need consistent but varied test data.
-Names used in the library are inspired by characters from the HBO series 'The Game of Thrones', providing a rich variety of test data.
+mock-factory-ts is a TypeScript library designed to generate unique random values for use in automated tests. It provides functions for creating random people, generating random numbers and strings, and selecting random items from collections. This library is particularly useful for testing scenarios where you need consistent but varied test data.  
+*Names used in the library are inspired by characters from the HBO series 'The Game of Thrones', providing a rich variety of test data.*
 
 ## Installation
 You can install mock-factory-ts using npm:
@@ -36,4 +36,14 @@ title: string
 firstName: string
 lastName: string
 email: string
+```
+Example:
+```typescript
+Person {
+  title: 'Mr',
+  firstName: 'Eddard',
+  middleName: 'Ned',
+  lastName: 'Stark',
+  email: 'starke8517@winterfell.com'
+}
 ```
