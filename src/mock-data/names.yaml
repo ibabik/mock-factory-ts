@@ -1,0 +1,282 @@
+
+- home: Airye
+  lastName: Arryn
+  names:
+    - 0 Jon
+    - 0 Robin
+    - 1 Lysa
+- home: Twins
+  lastName: Frey
+  names:
+    - 0 Walder
+    - 0 Stevron
+    - 0 Lothar
+    - 0 Olyvar
+    - 0 Waldron
+    - 2 Joyeuse
+    - 2 Kitty
+    - 3 Roslin
+    - 3 Walda
+    - 3 Derwa
+    - 3 Waldra
+    - 3 Arwaya
+    - 3 Shirei
+    - 3 Janeya
+    - 3 Neyela
+    - 3 Serra
+    - 3 Marianne
+    - 3 Freya
+- home: Riverlands
+  lastName: Rivers
+  names:
+    - 0 Walder
+    - 0 Ryger
+    - 0 Brynden
+- home: Pyke
+  lastName: Greyjoy
+  names:
+    - 0 Balon
+    - 0 Rodrik
+    - 0 Maron
+    - 0 Theon
+    - 0 Euron
+    - 0 Aeron
+    - 3 Yara
+- home: Dreadfort
+  lastName: Bolton
+  names:
+    - 0 Roose
+    - 0 Ramsay
+    - 0 Domeric
+- home: Riverrun
+  lastName: Tully
+  names:
+    - 0 Hoster
+    - 0 Brynden
+    - 0 Edmure
+- home: Harrenhal
+  lastName: Baelish
+  names:
+    - 0 Petyr Littlefinger
+- home: Casterly Rock
+  lastName: Lannister
+  names:
+    - 0 Tywin
+    - 0 Jaime
+    - 0 Tyrion
+    - 0 Kevan
+    - 0 Lancel
+    - 0 Willem
+    - 0 Martyn
+    - 2 Joanna
+    - 1 Cersei
+    - 2 Genna
+    - 3 Janei
+- home: Highgarden
+  lastName: Tyrell
+  names: 
+    - 0 Mace
+    - 0 Willas
+    - 0 Garlan
+    - 0 Loras
+    - 2 Alerie
+    - 2 Olenna
+    - 3 Margaery
+- home: Sunspear
+  lastName: Martell
+  names:
+    - 0 Doran
+    - 0 Oberyn
+    - 0 Quentyn
+    - 0 Trystane
+    - 3 Elia
+    - 3 Arianne
+- home: Dorn
+  lastName: Sand
+  names:
+    - 1 Ellaria
+    - 3 Obara
+    - 3 Nymeria
+    - 3 Tyene
+    - 3 Sarella
+    - 3 Elia
+    - 3 Obella
+    - 3 Dorea
+    - 3 Loreza
+- home: Winterfell
+  lastName: Stark
+  names:
+    - 0 Eddard Ned
+    - 0 Robb
+    - 0 Bran
+    - 0 Rickon
+    - 0 Benjen
+    - 2 Catelyn
+    - 3 Sansa
+    - 3 Arya
+    - 3 Lyanna
+- home: Winterfell
+  lastName: Noname
+  names:
+    - 0 Hodor
+- home: Crag
+  lastName: Westerling
+  names:
+    - 3 Jeyne
+- home: Nights Watch
+  lastName: Snow
+  names:
+    - 0 John
+- home: Beyond The Wall
+  lastName: Freenames
+  names:
+    - 0 Mance Rayder
+    - 0 Craster
+    - 0 Lord-Of-Bones
+    - 0 Tormund Giantsbane
+    - 0 Varamyr Sixskins
+    - 0 Mag Mar Tun Doh Weg
+    - 0 Wun Weg Wun Dar Wun
+    - 3 Osha
+    - 3 Ygritte
+    - 3 Gilly
+    - 3 Val
+- home: Karhold
+  lastName: Karstark
+  names:
+    - 0 Rickard
+    - 3 Alys
+- home: White Harbor
+  lastName: Manderly
+  names:
+    - 0 Wyman
+- home: Greywater Watch
+  lastName: Reed
+  names:
+    - 0 Jojen
+    - 0 Howland
+    - 3 Meera
+- home: Bear Island
+  lastName: Mormont
+  names:
+    - 0 Jorah
+    - 0 Jeor
+    - 1 Maege
+    - 3 Lyanna
+    - 3 Dacey
+    - 3 Alysane
+    - 3 Lyra
+    - 3 Jorelle
+- home: Storms End
+  lastName: Baratheon
+  names:
+    - 0 Robert
+    - 0 Renly
+    - 0 Stannis
+    - 0 Joffrey
+    - 0 Tommen
+    - 0 Gendry
+    - 2 Selyse
+    - 3 Myrcella
+    - 3 Shireen
+- home: Storms End
+  lastName: Storm
+  names:
+    - 0 Edric
+- home: Kings Landing
+  lastName: Targaryen
+  names:
+    - 0 Aegon
+    - 0 Aerys
+    - 0 Rhaegar
+    - 0 Viserys
+    - 3 Daenerys
+- home: Kings Landing
+  lastName: Water
+  names:
+    - 0 Hot-Pie
+- home: Westerlands
+  lastName: Clegane
+  names:
+    - 0 Gregor The Mountain
+    - 0 Sandor The Hound
+- home: Naath
+  lastName: Noname
+  names:
+    - 3 Missandei
+- home: Stormcrows
+  lastName: Naharis
+  names:
+    - 0 Daario
+- home: Astapor
+  lastName: Unsullied
+  names:
+    - 0 Grey-Worm
+- home: Stokeworth
+  lastName: Blackwater
+  names:
+    - 0 Bronn
+    - 3 Lollis
+- home: Westerlands
+  lastName: Payne
+  names:
+    - 0 Ilyn
+    - 0 Podrick Pod
+- home: Rainwood
+  lastName: Seaworth
+  names:
+    - 0 Davos The Onion Knight
+    - 0 Matthos
+- home: Island of Tarth
+  lastName: Tarth
+  names:
+    - 3 Brienne
+    - 0 Selwyn 
+- home: Riverlands
+  lastName: Dondarrion
+  names:
+  - 0 Beric
+- home: Horn Hill
+  lastName: Tarly
+  names:
+    - 0 Samwell
+    - 0 Randyll
+    - 0 Dickon
+    - 3 Talla
+- home: Citadel
+  lastName: Maester
+  names:
+    - 0 Aemon
+    - 0 Pycelle
+    - 0 Qyburn
+- home: Faith of the Seven
+  lastName: Septa
+  names:
+    - 3 Mordane
+    - 3 Unella
+- home: Dothraki Sea
+  lastName: Khal
+  names:
+    - 0 Drogo
+    - 0 Jhaqo
+    - 0 Pono
+    - 0 Moro
+    - 0 Jommo
+    - 0 Ogo
+    - 0 Zekko
+    - 0 Motho
+    - 0 Bharbo
+- home: Free Cities
+  lastName: Noname
+  names:
+    - 0 Yoren
+    - 0 Varys
+    - 0 The-High-Sparrow
+    - 0 Meribald
+    - 0 Thoros of Myr
+    - 0 Jaqen Hghar
+    - 0 Hizdahr zo Loraq
+    - 0 Yezzan zo Qaggaz
+    - 3 Shae
+    - 3 Melisandre
+    - 3 Quaithe
