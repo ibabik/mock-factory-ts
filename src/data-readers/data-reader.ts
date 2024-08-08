@@ -4,7 +4,7 @@ import * as path from 'path';
 
 export class DataReader{
     static read(fileName: string) {
-        const filePath = path.resolve('src/mock-data', fileName);
+        const filePath = path.resolve(__dirname, '../mock-data', fileName);
     
         try {
             const fileContents = fs.readFileSync(filePath, 'utf8');

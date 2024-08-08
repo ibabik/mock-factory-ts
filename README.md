@@ -34,6 +34,7 @@ console.log(person);
 ```typescript
 title: string
 firstName: string
+middleName: string
 lastName: string
 email: string
 ```
