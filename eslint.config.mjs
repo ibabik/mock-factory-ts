@@ -1,22 +1,8 @@
-import globals from "globals";
-import tseslint from "typescript-eslint";
+import eslint from '@eslint/js';
+import tseslint from 'typescript-eslint';
 
-export default [
-  {
-    "files": ["**/*.ts", "**/*.tsx"],
-    "languageOptions":{
-      "parser": tseslint.parser,
-      "globals": globals.node,
-      "parserOptions": {
-        "project": "./tsconfig.json"
-      }
-    },
-    "plugins": {
-      "@typescript-eslint": tseslint
-    },
-    "ignores": [
-      "node-modules/",
-      "dist/**/*"
-    ]
-  }
-];
+export default tseslint.config(
+  eslint.configs.recommended,
+  ...tseslint.configs.recommended,
+  ...tseslint.configs.stylistic
+);
