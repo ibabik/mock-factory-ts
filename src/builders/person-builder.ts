@@ -11,7 +11,7 @@ export class PersonBuilder {
     private home = '';
     
     withTitle(title: string): PersonBuilder {
-        this.title = title;
+         this.title = title;
         return this;
     }
 
@@ -42,7 +42,7 @@ export class PersonBuilder {
             this.middleName,
             this.lastName,
             this.email
-        )
+        );
     }
 
     buildFromHouseholdAndName(householdAndName: HouseholdAndName): Person {

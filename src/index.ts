@@ -19,6 +19,6 @@ export {
     randomNumber,
     randomNumberString,
     randomFromCollection
-}
+};
 
-export type { Person }
+export type { Person };

@@ -23,7 +23,7 @@ export class NameReader extends DataReader {
         const people = flattenHouseholdNames();
         const person = people.find(p => p.firstName.includes(firstName));
         if (!person) {
-            throw new Error(`No records found for first name '${firstName}'`)
+            throw new Error(`No records found for first name '${firstName}'`);
         }
         return person;
     }
@@ -32,7 +32,7 @@ export class NameReader extends DataReader {
         const people = flattenHouseholdNames();
         const person = people.find(p => p.lastName === lastName && p.firstName.includes(firstName));
         if (!person) {
-            throw new Error(`No records found for name '${firstName} ${lastName}'`)
+            throw new Error(`No records found for name '${firstName} ${lastName}'`);
         }
         return person;
     }

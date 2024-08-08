@@ -1,4 +1,4 @@
-export function randomNumber(max: number, min: number = 0): number {
+export function randomNumber(max: number, min = 0): number {
     if (min > max) {
         throw new Error('Max value must be greater than min value');
     };
