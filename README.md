@@ -29,6 +29,12 @@ console.log(person);
 
 **randomFromCollection<T>(collection: T[]): T**: Selects a random item from the provided collection.
 
+**randomLetter()**: string: Generates a random lowercase letter from a to z.
+
+**generatePostalCode()**: string: Generates a random Canadian-style postal code.
+
+**generateNationalInsuranceNumberUk()**: string: Generates a random UK National Insurance Number.
+
 ### Exported Types
 **Person**: Represents a person with the following properties:
 ```typescript
@@ -37,7 +43,9 @@ firstName: string
 middleName: string
 lastName: string
 email: string
+phoneNumber: string
 ```
+**Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code 
 Example:
 ```typescript
 Person {
@@ -45,6 +53,17 @@ Person {
   firstName: 'Eddard',
   middleName: 'Ned',
   lastName: 'Stark',
-  email: 'starke8517@winterfell.com'
+  email: 'e.stark7787@winterfell.com',
+  phoneNumber: '4547820595',
+  address: Address {
+    line1: '421 Lord of Winterfell Street',
+    line2: 'Building 49',
+    city: 'Winterfell',
+    state: 'Vermont',
+    province: 'Prince Edward Island',
+    postalCode: 'G5G 8W4',
+    zipCode: '31280',
+    country: 'Winterfell'
+  }
 }
 ```

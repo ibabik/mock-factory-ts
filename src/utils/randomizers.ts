@@ -3,7 +3,7 @@ export function randomNumber(max: number, min = 0): number {
         throw new Error('Max value must be greater than min value');
     };
 
-    if (max - min === 0){
+    if (max - min === 0) {
         return max;
     }
 
@@ -14,7 +14,7 @@ export function randomNumber(max: number, min = 0): number {
 
 export function randomNumberString(length: number): string {
     let numberString = '';
-    for(let i=1; i<=length; i++){
+    for (let i = 1; i <= length; i++) {
         numberString += randomNumber(10);
     };
     return numberString;
@@ -22,4 +22,9 @@ export function randomNumberString(length: number): string {
 
 export function randomFromCollection<T>(collection: T[]): T {
     return collection[randomNumber(collection.length)];
+}
+
+export function randomLetter(): string {
+    const alphabet = 'abcdefghijklmnopqrstuvwxyz';
+    return alphabet[randomNumber(alphabet.length)];
 }

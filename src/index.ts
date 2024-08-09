@@ -1,7 +1,9 @@
 import { Person } from "./models/person";
-import { randomFromCollection, randomNumber, randomNumberString } from "./utils/randomizers";
+import { randomFromCollection, randomLetter, randomNumber, randomNumberString } from "./utils/randomizers";
 import { NameReader } from "./data-readers/name-reader";
 import { PersonBuilder } from "./builders/person-builder";
+import { Address } from "./models/address";
+import { generatePostalCode, generateNationalInsuranceNumberUk } from "./utils/generators";
 
 export function generateRandomPerson(): Person {
     return new PersonBuilder().buildFromHouseholdAndName(NameReader.selectRandomName());
@@ -16,9 +18,12 @@ export function getPersonByFirstAndLastName(firstName: string, lastName: string)
 }
 
 export {
+    randomLetter,
     randomNumber,
     randomNumberString,
-    randomFromCollection
+    randomFromCollection,
+    generatePostalCode,
+    generateNationalInsuranceNumberUk
 };
 
-export type { Person };
+export type { Person, Address };
