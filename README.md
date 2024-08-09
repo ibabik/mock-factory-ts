@@ -44,8 +44,9 @@ middleName: string
 lastName: string
 email: string
 phoneNumber: string
+address: Address
 ```
-**Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code 
+**Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code   
 Example:
 ```typescript
 Person {
