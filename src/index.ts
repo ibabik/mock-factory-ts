@@ -4,6 +4,7 @@ import { NameReader } from "./data-readers/name-reader";
 import { PersonBuilder } from "./builders/person-builder";
 import { Address } from "./models/address";
 import { generatePostalCode, generateNationalInsuranceNumberUk } from "./utils/generators";
+import { BankAccount } from "./models/bank-account";
 
 export function generateRandomPerson(): Person {
     return new PersonBuilder().buildFromHouseholdAndName(NameReader.selectRandomName());
@@ -26,4 +27,4 @@ export {
     generateNationalInsuranceNumberUk
 };
 
-export type { Person, Address };
+export type { Person, Address, BankAccount };

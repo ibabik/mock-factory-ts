@@ -45,6 +45,7 @@ lastName: string
 email: string
 phoneNumber: string
 address: Address
+bankAccount: BankAccount
 ```
 **Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code   
 Example:
@@ -65,6 +66,12 @@ Person {
     postalCode: 'G5G 8W4',
     zipCode: '31280',
     country: 'Winterfell'
+  },
+  bankAccount: BankAccount {
+    bankName: 'Iron Bank',
+    bankAccountName: 'Eddard Stark',
+    sortCode: '828430',
+    accountNumber: '43810690'
   }
 }
 ```

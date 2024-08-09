@@ -1,8 +1,10 @@
 import { HouseholdAndName } from "../data-readers/interfaces/household-and-name.interface";
 import { Address } from "../models/address";
+import { BankAccount } from "../models/bank-account";
 import { Person } from "../models/person";
 import { randomNumber, randomNumberString } from "../utils/randomizers";
 import { AddressBuilder } from "./address-builder";
+import { BankAccountBuilder } from "./bank-account-builder";
 
 export class PersonBuilder {
     private title!: string;
@@ -13,6 +15,7 @@ export class PersonBuilder {
     private phoneNumber!: string;
     private home = '';
     private address!: Address;
+    private bankAccount!: BankAccount;
     
     withTitle(title: string): PersonBuilder {
          this.title = title;
@@ -49,6 +52,11 @@ export class PersonBuilder {
         return this;
     }
 
+    withBankAccount(bankAccount: BankAccount): PersonBuilder {
+        this.bankAccount = bankAccount;
+        return this;
+    }
+
     build() {
         return new Person(
             this.title,
@@ -57,7 +65,8 @@ export class PersonBuilder {
             this.lastName,
             this.email,
             this.phoneNumber,
-            this.address
+            this.address,
+            this.bankAccount
         );
     }
 
@@ -72,6 +81,7 @@ export class PersonBuilder {
             .withEmail(this.generateEmail())
             .withPhoneNumber(randomNumberString(10))
             .withAddress(new AddressBuilder().buildRandom(householdAndName))
+            .withBankAccount(new BankAccountBuilder().buildRandom(this.firstName, this.lastName))
             .build();
     }
 
