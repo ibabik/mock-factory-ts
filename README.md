@@ -36,18 +36,12 @@ console.log(person);
 **generateNationalInsuranceNumberUk()**: string: Generates a random UK National Insurance Number.
 
 ### Exported Types
-**Person**: Represents a person with the following properties:
-```typescript
-title: string
-firstName: string
-middleName: string
-lastName: string
-email: string
-phoneNumber: string
-address: Address
-bankAccount: BankAccount
-```
-**Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code   
+**Person**: Represents a person with properties like name, email, address etc.  
+
+**Address**: Represents a unique address with US state and zip as well as a Canadian province and postal code.  
+
+**BankAccount**: Represents a simple set of bank account details  
+
 Example:
 ```typescript
 Person {
